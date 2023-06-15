@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S $CFILE -Xassembler intel syntax -o ${CFILE%.*}.s
+gcc -S $CFILE -Wa intel syntax -o ${CFILE%.*}.s
