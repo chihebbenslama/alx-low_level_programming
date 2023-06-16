@@ -16,12 +16,12 @@ int main(void)
 	while (n < 10)
 	{
 		putchar ('0' + n);
-		n++
+		n++;
 	}
 	while ((n > 9) && (n < 16))
 	{
 		putchar ('W' + n);
-		n++
+		n++;
 	}
 	putchar('\n');
 	return (0);
