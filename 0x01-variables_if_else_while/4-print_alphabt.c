@@ -13,8 +13,8 @@ int main(void)
 	char lower;
 
 	for (lower = 'a'; lower <= 'z'; lower++)
-	{
-		while (lower != ('q', 'e'))
+	{i
+		while (lower != ['q' && 'e'])
 		{
 			putchar(lower);
 		}
