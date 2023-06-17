@@ -13,14 +13,14 @@ int main(void)
 	int i, j, t, c, w;
 
 	t = 0;
-	w = 0;
-	for (i = 0; i <= 8; i++)
+	for (i = 0; i <= 7; i++)
 	{
-		for (j = t + 1; j <= 9; j++)
+		w = 0;
+		for (j = t + 1; j <= 8; j++)
 		{
 			for (c = w + 2; c <= 9; c++)
 			{
-				if ((i != j) && (i != c) && (c != j))
+				if (((i != j) || (i != c)) || (j != c))
 				{
 					putchar('0' + i);
 					putchar('0' + j);
@@ -35,7 +35,7 @@ int main(void)
 					putchar(' ');
 				}
 			}
-			w++;
+		w++;
 		}
 	t++;
 	}
