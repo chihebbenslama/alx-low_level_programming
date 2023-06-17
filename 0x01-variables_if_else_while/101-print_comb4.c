@@ -34,10 +34,10 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
-			w++;
 			}
-		t++;
+			w++;
 		}
+	t++;
 	}
 	return (0);
 }
