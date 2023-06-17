@@ -10,13 +10,14 @@
 */
 int main(void)
 {
-	int i, j;
+	int i, j, t;
 
+	t = 0;
 	for (i = 0; i <= 8; i++)
 	{
-		for (j = 1; j <= 9; j++)
+		for (j = t +1; j <= 9; j++)
 		{
-			while (i != j)
+			if (i != j)
 			{
 			putchar('0' + i);
 			putchar('0' + j);
@@ -24,6 +25,7 @@ int main(void)
 			putchar(' ');
 			}
 		}
+	t++;
 	}
 	putchar('\n');
 	return (0);
