@@ -15,7 +15,7 @@ int main(void)
 	t = 0;
 	for (i = 0; i <= 8; i++)
 	{
-		for (j = t +1; j <= 9; j++)
+		for (j = t + 1; j <= 9; j++)
 		{
 			if (i != j)
 			{
