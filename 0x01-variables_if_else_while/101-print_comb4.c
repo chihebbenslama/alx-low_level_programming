@@ -16,8 +16,7 @@ int main(void)
 	v = 0;
 	for (i = 0; i <= 7; i++)
 	{
-		v = w + 1;
-		w = 0;
+		w = v + 0;
 		for (j = t + 1; j <= 8; j++)
 		{
 			for (c = w + 2; c <= 9; c++)
