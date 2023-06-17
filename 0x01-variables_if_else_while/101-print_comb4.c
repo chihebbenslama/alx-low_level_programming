@@ -10,11 +10,13 @@
 */
 int main(void)
 {
-	int i, j, t, c, w;
+	int i, j, t, c, w, v;
 
 	t = 0;
+	v = 0;
 	for (i = 0; i <= 7; i++)
 	{
+		v = w + 1;
 		w = 0;
 		for (j = t + 1; j <= 8; j++)
 		{
@@ -38,6 +40,7 @@ int main(void)
 		w++;
 		}
 	t++;
+	v++;
 	}
 	return (0);
 }
