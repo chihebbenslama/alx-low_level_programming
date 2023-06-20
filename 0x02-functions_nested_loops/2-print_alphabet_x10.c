@@ -9,13 +9,11 @@
 */
 void print_alphabet_x10(void)
 {
-	int n;
+	int i;
 
-	n = 0;
-	while (n < 10)
+	for (i = 0; i < 10; i++)
 	{
 		print_alphabet();
-		n++;
 	}
 	return;
 }
