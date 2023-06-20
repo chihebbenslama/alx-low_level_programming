@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include "main.h"
+#include <ctype.h>
 
 /**
  * _islower - checks for lowercase character.
- * c - caracter 
+ * c - caracter
  *
  * Return 1 if c is lowercase returns 0 otherwise
 */
