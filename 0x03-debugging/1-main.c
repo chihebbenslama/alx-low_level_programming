@@ -13,7 +13,7 @@ int main(void)
 
 	i = 0;
 
-	while (i < 10) /* no incrementation of i */
+	while (i < 10) /* printf("no incrementation of i") */
 	{
 		putchar(i);
 	}
