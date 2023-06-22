@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include "main.h"
-#include <ctype.h>
 
 /**
  * main - print fizz if i is multiples of three
