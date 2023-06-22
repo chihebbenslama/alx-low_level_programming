@@ -3,14 +3,16 @@
 #include <ctype.h>
 
 /**
- * _isdigit - checks for a digit (0 through 9).
- * @c: checks if c is a digit
+ * print_diagonal - draws a diagonal line on the terminal.
+ * @n: the number of times the character \ should be printed
  *
- * Return: Returns 1 if c is a digit otherwise 0.
+ *
 */
 void print_diagonal(int n)
 {
-	if ( n > 0)
+	int i, j;
+
+	if (n > 0)
 	{
 		for (i = 0; i <= n; i++)
 		{
