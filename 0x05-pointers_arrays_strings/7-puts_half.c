@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "main.h"
-#include <string.h>
+#include <string.hi>
+#include <2-strlen.c>
 
 /**
  * main - Prints a random number and states whether
