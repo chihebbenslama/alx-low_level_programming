@@ -12,5 +12,5 @@ void puts_half(char *str)
 {
 	int len = _strlen(str);
 
-	_putchar(len);
+	printf("%d\n", len);
 }
