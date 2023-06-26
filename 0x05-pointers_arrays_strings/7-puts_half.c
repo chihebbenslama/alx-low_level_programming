@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-#include <string.hi>
+#include <string.h>
 #include <2-strlen.c>
 
 /**
