@@ -4,9 +4,16 @@ include <stdio.h>
 
 int main()
 {
-	srand(time(101-crackme));
-	int random_variable = rand();
-	
-	printf("Random value on [0,%d]: %d\n", RAND_MAX, random_variable);
-}
+	int pw[100];
+	int i, n;
 
+
+	srand(time(NULL));
+
+	n = rand() % 101;
+	for (i = 0; i < n; i++)
+	{
+		pw[i] = rand() % 94;
+		putchar(pw[i] + '!');
+	}
+}
