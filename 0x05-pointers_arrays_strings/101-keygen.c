@@ -7,7 +7,6 @@ int main(void)
 	int pw[100];
 	int i, n;
 
-
 	srand(time(NULL));
 
 	n = rand() % 101;
@@ -16,4 +15,5 @@ int main(void)
 		pw[i] = rand() % 94;
 		putchar(pw[i] + '!');
 	}
+	return (0);
 }
