@@ -14,7 +14,7 @@ char *string_toupper(char *str)
 	int i;
 	char j;
 
-	for (i = 0; i < strlen(str) - 2; i++)
+	for (i = 0; str[i] < '\0' ; i++)
 	{
 		for (j = 'a'; j <= 'z'; j++)
 		{
