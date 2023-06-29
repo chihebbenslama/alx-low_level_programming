@@ -14,13 +14,15 @@ char *string_toupper(char *str)
 	int i;
 	char j;
 
-	for (i = 0; str[i] < '\0' ; i++)
+	i = 0;
+	while (str[i] != '\0')
 	{
 		for (j = 'a'; j <= 'z'; j++)
 		{
 			if (str[i] == j)
 				str[i] = j - 32;
 		}
+		i++;
 	}
 return (str);
 }
