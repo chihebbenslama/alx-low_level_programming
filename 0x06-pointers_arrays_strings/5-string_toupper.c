@@ -13,7 +13,7 @@ char *string_toupper(char *str)
 {
 	int i;
 	char j;
-	
+
 	for (i = 0; i < strlen(str) - 1; i++)
 	{
 		for (j = 'a'; j <= 'z'; j++)
