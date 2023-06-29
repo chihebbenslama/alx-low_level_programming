@@ -8,12 +8,11 @@
  *
  * Return: the string in uppercase
 */
-
 char *string_toupper(char *str)
 {
 	int i;
 	char j;
-
+	
 	for (i = 0; i < strlen(str) - 1; i++)
 	{
 		for (j = 'a'; j <= 'z'; j++)
@@ -22,5 +21,5 @@ char *string_toupper(char *str)
 				str[i] = j - 32;
 		}
 	}
-	return (str);
+return (str);
 }
