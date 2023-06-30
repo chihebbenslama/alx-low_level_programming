@@ -11,14 +11,14 @@
 */
 char *leet(char *str)
 {
-	char chaar[8] = {aAeEoOtTlL};
-	int inarr[8] = {4433007711};
+	char chaar[] = {aAeEoOtTlL};
+	int inarr[] = {4433007711};
 	int len, i, j;
 
 	len = strlen(str);
 	for (i = 0; i < len; i++)
 	{
-		for (j = 0; j < 9; j++)
+		for (j = 0; j < 10; j++)
 		{
 			if (str[i] == chaar[j])
 			{
