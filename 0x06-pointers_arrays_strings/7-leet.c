@@ -11,8 +11,8 @@
 */
 char *leet(char *str)
 {
-	char chaar[] = {aAeEoOtTlL};
-	int inarr[] = {4433007711};
+	char chaar[] = "aAeEoOtTlL";
+	char inarr[] = "4433007711";
 	int len, i, j;
 
 	len = strlen(str);
