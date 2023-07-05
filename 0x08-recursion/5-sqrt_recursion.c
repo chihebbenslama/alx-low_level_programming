@@ -13,7 +13,7 @@ int mult(int a, int b)
 		return (a);
 	else if (a * a > b)
 		return (-1);
-	return (mult(a - 1, b));
+	return (mult(a + 1, b));
 }
 
 /**
