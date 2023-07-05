@@ -1,4 +1,4 @@
-#include "main_h"
+#include "main.h"
 
 /**
  * mult - return natural suqare root of n
