@@ -10,7 +10,7 @@
 int mult(int a, int b)
 {
 	if (a * a == b)
-		return (b);
+		return (a);
 	else if (a * a > b)
 		return (-1);
 	return (mult(a - 1, b));
