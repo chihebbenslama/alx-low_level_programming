@@ -3,26 +3,24 @@
 #include "lists.h"
 
 /**
- * _strlen - function that returns the length of a string.
- * @str: string 
+ * _strlen - finds the length of a string
+ * @str: string to find the length of
  *
- * Return: length of str
+ * Return: length of string
  */
 unsigned int _strlen(char *str)
 {
-	int i = 0;
+	unsigned int i;
 
-	while (s[i] != '\0')
-	{
-		i++;
-	}
+	for (i = 0; str[i]; i++)
+		;
 	return (i);
 }
 
 /**
- * add_node_end - adds a new node at the end of a list_t list.
- * @head: head of a list_t list.
- * @str: string
+ * add_node_end - adds a new node to the end of linked list
+ * @head: double pointer to a linked list
+ * @str: string to add to the new node
  *
  * Return: pointer to the new node
  */
