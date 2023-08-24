@@ -8,10 +8,10 @@
  * Return: 0
 */
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-	int argcount = argc - 1;
+	(void)argv;
 
-	printf("%d\n", argcount);
+	printf("%d\n", argc - 1);
 	return (0);
 }
