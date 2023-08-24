@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 				valid = 0;
 				break;
 			}
-			else if (num > 0)
+			else
 			{
 				sum += num;
 			}
