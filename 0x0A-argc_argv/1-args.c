@@ -10,6 +10,8 @@
 
 int main(int argc, *argv[])
 {
-	printf("%d\n", argc);
+	int argcount = argc - 1;
+
+	printf("%d\n", argcount);
 	return (0);
 }
