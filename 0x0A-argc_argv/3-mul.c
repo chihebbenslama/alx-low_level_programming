@@ -3,24 +3,27 @@
 
 /**
  * main - multiplies two numbers.
- * @argc: argument count
+ * @argc: arguments count
  * @argv: arguments
- *
- * Return: 0
- */
-int main(int argc, char **argv)
-{
-	int x, y;
+ * Return: 1 if the program does not receive two arguments else return 0
+*/
 
-	if (argc < 3)
+int main(int argc, char *argv[])
+{
+	if (argc < 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
+	else
+	{
+		int i, sum = 1;
 
-	x = atoi(argv[1]);
-	y = atoi(argv[2]);
-	printf("%d\n", x * y);
-
+		for (i = 1; i < argc - 1; i++)
+		{
+			sum = atoi(argv[i]) * atoi(argv[i + 1]);
+			printf("%d\n", sum);
+		}
+	}
 	return (0);
 }
