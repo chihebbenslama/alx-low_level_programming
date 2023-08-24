@@ -1,38 +1,35 @@
 #include <stdio.h>
+#include <ctype.h>
 #include <stdlib.h>
 
 /**
  * main - adds positive numbers.
- * @argc: argument count
+ * @argc: arguments count
  * @argv: arguments
  *
- * Return: 0
- */
-int main(int argc, char **argv)
+ * Return: 1 if one of the number contains symbols else return 0
+*/
+
+int main(int argc, char *argv[])
 {
-	int i, n, sum = 0;
-	char *flag;
+	int i, count = 0;
 
-	if (argc < 2)
-	{
+	if (argc == 1)
 		printf("0\n");
-		return (0);
-	}
-
-	for (i = 1; argv[i]; i++)
+	else
 	{
-		n = strtol(argv[i], &flag, 10);
-		if (*flag)
+		for (i = 1; i < argc; i++)
 		{
-			printf("Error\n");
-			return (1);
+			if (isdigit(atoi(argv[i])) == 0)
+			{
+				printf("Error");
+				return (1);
+			}
+			else if (atoi(argv[i]) > 0)
+			{
+				count += 1;
+			}
 		}
-		else
-		{
-			sum += n;
-		}
-	}
-	printf("%d\n", sum);
-
-	return (0);
+		printf("%d\n", count);
+		return (0);
 }
