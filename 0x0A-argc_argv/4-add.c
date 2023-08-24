@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
 			}
 		}
 	}
-	if (valid)
+	if (valid == 0)
 	{
 		printf("Error");
 		return (1);
