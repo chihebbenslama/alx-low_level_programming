@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	{
 		int i, sum = 1;
 
-		for (i = 1; i < argc; i++)
+		for (i = 1; i < argc - 1; i++)
 		{
 			sum = atoi(argv[i]) * atoi(argv[i + 1]);
 			printf("%d\n", sum);
