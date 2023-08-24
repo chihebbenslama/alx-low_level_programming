@@ -8,7 +8,7 @@
  * Return: 0
 */
 
-int main(int argc, *argv[])
+int main(int argc, char *argv[])
 {
 	int argcount = argc - 1;
 
