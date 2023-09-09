@@ -1,7 +1,8 @@
 #include <stdlib.h>
 
 /*
- * main -  allocates memory using malloc.
+ * malloc_checked - allocates memory using malloc.
+ * @all: allocated memory
  *
  * Return: return pointer to the allocated memory else error 98
  */
