@@ -5,7 +5,7 @@
  * @b: allocated memory
  *
  * Return: return pointer to the allocated memory else error 98
-*/
+ */
 
 void *malloc_checked(unsigned int b)
 {
