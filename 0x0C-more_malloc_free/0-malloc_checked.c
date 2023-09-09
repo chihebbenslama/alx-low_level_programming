@@ -2,6 +2,7 @@
 
 /**
  * malloc_checked - allocates memory using malloc.
+ *
  * @b: allocated memory
  *
  * Return: return pointer to the allocated memory else error 98
