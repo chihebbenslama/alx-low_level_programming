@@ -1,18 +1,18 @@
 #include <stdlib.h>
 
-/*
+/**
  * malloc_checked - allocates memory using malloc.
- * @all: allocated memory
+ * @b: allocated memory
  *
  * Return: return pointer to the allocated memory else error 98
- */
+*/
 
 void *malloc_checked(unsigned int b)
 {
-	void *all
+	void *b
 
-	all = malloc(sizeof(b));
-	if (*all == NULL)
+	b = malloc(sizeof(b));
+	if (*b == NULL)
 		exit(98);
-	return (all);
+	return (b);
 }
